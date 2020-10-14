@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  stages {
+what dores   stages {
     stage('build') {
       steps {
         node(label: 'docker') {
